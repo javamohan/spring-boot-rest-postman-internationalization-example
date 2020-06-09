@@ -1,0 +1,8 @@
+@RestController
+@RequestMapping(value = "/api")
+public class I18nApi {
+	@GetMapping()
+	public String getMessage(@RequestParam("msg") String msg) {
+		return Translator.toLocale(msg);
+	}
+}
