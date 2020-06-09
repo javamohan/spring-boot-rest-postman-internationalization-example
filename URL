@@ -1,0 +1,15 @@
+http://localhost:8080/inventory/api?msg=welcome
+
+QueryParam
+msg = welcome
+
+RequestHeader:
+Accept-Language = fr
+
+Under the resources folder, create two files: messages.properties and messages_fr.properties.
+Here is the content of messages.properties:
+hello=Hello World!
+welcome=Welcome to this guide!
+And here is content of messages_fr.properties:
+hello=Bonjour le Monde!
+welcome=Bienvenue dans ce guide!
